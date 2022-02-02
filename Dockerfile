@@ -6,4 +6,4 @@ COPY . /app
 
 RUN pip install -r /app/requirements.txt
 
-RUN rm /app
+RUN rm -r /app/
